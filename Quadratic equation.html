@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Document</title>
+    <style>
+        h1{
+            text-align: center;
+            font-family: monospace;
+            font-size: 50px;
+            margin: 100px auto;
+        }
+        .function{
+            text-align: center;
+            font-family: cursive;
+            font-size: 20px;
+            
+        }
+        input[type=number] {
+            width: 40px;
+                 }
+    </style>
+</head>
+<body>
+  <div class="function">
+   <h1>Решение квадратных уравнений</h1>
+   <p><input type="number" min="-999" max="999" placeholder="a" id = "inp1">
+   x<sup><small>2</small></sup>+
+    <input type="number" min="-999" max="999" placeholder="b" id = "inp2">x +
+    <input type="number" min="-999" max="999" placeholder="c" id = "inp3"> = 0
+     <br>
+     <br>
+      <button onclick="f1()">Решить</button>
+      </p>
+      <br>
+      <p id="outD">D = </p>
+      <p id="outX">Корни = </p>
+   </div>
+    <script src="1.js"></script>
+</body>
+</html>
